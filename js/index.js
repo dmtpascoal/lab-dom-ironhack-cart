@@ -18,7 +18,7 @@ function calculateAll() {
 
   let balance = 0;
   for (i=0; i < productsArray.length; i++) {
-    value += updateSubtotal(productsArray[i]);
+    balance += updateSubtotal(productsArray[i]);
   }
   console.log(balance);
   
